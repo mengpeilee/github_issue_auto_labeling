@@ -1,11 +1,11 @@
-# Github issue auto labeling model - Use Facebook/react as example
+# Github issue auto labeling model
 
 This is the individual project from the CMU 18-668 course - Data Science for Software Engineering.
 Students are in charge of proposing and implementing a scenario you can address with a data-driven technique. Therefore, students need to:
 
-Choose a SE Problem: A problem of the SE domain to address
-Proposed an approach: find a data-driven technique to address the problem and/or answer the question.
-Designed and implement the approach: implement a set of design decisions to address the problem.
+- Choose a SE Problem: A problem of the SE domain to address
+- Proposed an approach: find a data-driven technique to address the problem and/or answer the question.
+- Designed and implement the approach: implement a set of design decisions to address the problem.
 
 
 ## 1. Introduction
