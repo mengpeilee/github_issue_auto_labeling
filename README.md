@@ -48,7 +48,7 @@ Seperate code and non-code part in issue description. The code part is surrounde
 
 ### Step 4. Remove noise from non-code part
 
-Remove  Markdown link syntax, URLs and HTML tags from description. 
+Remove Markdown link syntax, URLs and HTML tags from description.  
 
 ### Step 5. NLP preprocessing
 
