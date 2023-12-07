@@ -55,14 +55,14 @@ def process_json_file(file_path):
                 continue
 
             # remove "codes_and_errors" from data
-            if "codes_and_errors" in item:
-                del item["codes_and_errors"]
+            # if "codes_and_errors" in item:
+            #     del item["codes_and_errors"]
 
             processed_text = process_text(item["human_words_regrex"])
             processed_title = process_text(item["title"])
-            # item["human_words_stopwords_removal"] = processed_text["stopwords_removal"]
-            # item["human_words_stemmed"] = processed_text["stemmed"]
-            # item["human_words_lemmatized_description"] = processed_text["lemmatized_description"]
+            item["human_words_stopwords_removal"] = processed_text["stopwords_removal"]
+            item["human_words_stemmed"] = processed_text["stemmed"]
+            item["human_words_lemmatized_description"] = processed_text["lemmatized_description"]
             item["human_words_stopwords_removal_lemmatization"] = processed_text[
                 "stopwords_removal_lemmatization"
             ]

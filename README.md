@@ -44,11 +44,21 @@ Replace \n and \r with white space in the description
 
 ### Step 3. Seperate code and non-code part
 
-Seperate code and non-code part in issue description. The code part is surrounded by ``` and ```. The non-code part is the rest of the description.
+Seperate code and non-code part in description. The code part is the part that contains code block. The non-code part is the part that does not contain code block.
 
-### Step 4. Remove noise from non-code part
+```
+{
+ "codes_and_errors": [
+            "  <div hidden id=\"<div hidden id=\"S:1\">  ",
+            "  Uncaught TypeError: Cannot read properties of null (reading 'parentNode')      at $RS (127.0.0.1/:11)      at 127.0.0.1/:11  "
+        ],
+  "human_words": "When using `renderToReadableStream` for e.g. Cloudflare Workers runtimes, I'm noticing this error on the server: I'm assuming this results in the following malformed ..."
+}
+```
 
-Remove Markdown link syntax, URLs and HTML tags from description.  
+### Step 4. Remove noise from issue description
+
+Remove Markdown link syntax, URLs and HTML tags from issue description.  
 
 ### Step 5. NLP preprocessing
 
