@@ -167,4 +167,4 @@ Multi-label datasets often suffer from label imbalance, where some labels appear
 
 ## 5. Conclusion:
 
-This study highlights the successful application of machine learning in automating the labeling of GitHub issues, with a focus on the `Facebook/react`` repository. Key takeaways include the benefit of keyword extraction for improved accuracy and the need to address data imbalance. Ensemble methods like Gradient Boosting have shown promising results in classification tasks. Future efforts should concentrate on incorporating advanced NLP techniques and adapting the model to evolving data. 
+This study highlights the successful application of machine learning in automating the labeling of GitHub issues, with a focus on the `Facebook/react` repository. Key takeaways include the benefit of keyword extraction for improved accuracy and the need to address data imbalance. Ensemble methods like Gradient Boosting have shown promising results in classification tasks. Future efforts should concentrate on incorporating advanced NLP techniques and adapting the model to evolving data. 
